@@ -1,69 +1,93 @@
-import json, time, requests, os, subprocess, shutil
+import json
+import requests
+import os
+import subprocess
+import sys
+import time
 
-data = requests.get("https://raw.githubusercontent.com/szynkorowskiyt-tech/Subnautica-Ultimate-Modpack/refs/heads/main/data.json").json()
+URL = "https://raw.githubusercontent.com/szynkorowskiyt-tech/Subnautica-Ultimate-Modpack/refs/heads/main/data.json"
 
-def wait(ms=1000):
+# --- najpierw config (bo wait_time zależy od niego) ---
+try:
+    with open("config.json", "r") as file:
+        config = json.load(file)
+except FileNotFoundError:
+    print("\nConfig file not found!")
+    input("\nPress enter to continue...")
+    sys.exit(1)
 
-    time.sleep(ms // 1000)
+def wait():
+    time.sleep(config.get("wait_time", 0.5))
 
 print("\nIf errors/FAQ: https://leysmc.pl/files/myprojects/subnautica_eleton671_modpack/faq.html")
-
-wait(5000)
-
-try:
-
-    with open("config.json", "r") as file:
-
-        config = json.load(file)
-
-except FileNotFoundError:
-
-    print("\nConfig file not found!")
-
-    input("\nPress enter to continue...")
-
-    exit()
-
 wait()
 
-while True:
-    if data["version_number"] > config["version_number"]:
-        temp = input("\nNew Update Available! Download? True/False: ")
-        if temp == "True":
-            print("\nDownload from github!")
+# --- pobieranie danych z internetu ---
+try:
+    data = requests.get(URL, timeout=10).json()
+    wait()
+except Exception as e:
+    print(f"\nFailed to fetch update data: {e}")
+    wait()
+    input("\nPress enter to continue...")
+    sys.exit(1)
+
+# --- sprawdzanie aktualizacji ---
+try:
+    if data.get("version_number", 0) > config.get("version_number", 0):
+        temp = input("\nNew Update Available! Download? True/False: ").strip()
+        wait()
+
+        if temp.lower() == "true":
+            print("\nDownload from GitHub!")
+            wait()
             input("\nPress enter to continue...")
-            exit(1)
-        elif temp == "False":
-            print("\nSkipping")
-            break
+            sys.exit(0)
+
+        elif temp.lower() == "false":
+            print("\nSkipping update...")
+            wait()
         else:
             print("\nWrong Action!")
-temp = None
-wait()
-print("You can change any setting in file config.json!")
-wait()
-if data[controller_support]
-    shutil.copytree("game/bepinex", "", dirs_exist_ok=True)
-if "steam.exe" in subprocess.check_output("tasklist", text=True).lower():
-    print("\nsteam is not running (run steam)!")
+            wait()
+except Exception as e:
+    print(f"\nUpdate check error: {e}")
+    wait()
 
+print("\nYou can change any setting in file config.json!")
+wait()
+
+# --- sprawdzanie Steam ---
+tasklist = subprocess.check_output("tasklist", text=True).lower()
+wait()
+
+if "steam.exe" not in tasklist:
+    print("\nSteam is NOT running (please start Steam)!")
+    wait()
     input("\nPress enter to continue...")
+    sys.exit(1)
 
-    exit()
-
+# --- sprawdzanie gry ---
 if not os.path.exists("game/BepInEx"):
     print("\nBepInEx not found!")
-
+    wait()
     input("\nPress enter to continue...")
+    sys.exit(1)
 
-    exit()
-try:
-    os.startfile("game/subnautica.exe")
+# --- uruchomienie gry ---
+game_path = "game/subnautica.exe"
 
-except FileNotFoundError:
-
+if not os.path.exists(game_path):
     print("\ngame/subnautica.exe not found!")
-
+    wait()
     input("\nPress enter to continue...")
+    sys.exit(1)
 
-    exit()
+try:
+    os.startfile(game_path)
+    wait()
+except Exception as e:
+    print(f"\nFailed to launch game: {e}")
+    wait()
+    input("\nPress enter to continue...")
+    sys.exit(1)
