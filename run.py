@@ -84,7 +84,7 @@ if not os.path.exists(game_path):
     sys.exit(1)
 
 try:
-    os.startfile(game_path)
+    os.startfile("game\\subnautica.exe")
     wait()
 except Exception as e:
     print(f"\nFailed to launch game: {e}")
