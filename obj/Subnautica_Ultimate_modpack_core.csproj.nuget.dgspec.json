@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\szynk\\Desktop\\My Mods\\Subnautica_Ultimate_modpack_core\\Subnautica_Ultimate_modpack_core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\szynk\\Desktop\\My Mods\\Subnautica_Ultimate_modpack_core\\Subnautica_Ultimate_modpack_core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\szynk\\Desktop\\My Mods\\Subnautica_Ultimate_modpack_core\\Subnautica_Ultimate_modpack_core.csproj",
+        "projectName": "Subnautica_Ultimate_modpack_core",
+        "projectPath": "C:\\Users\\szynk\\Desktop\\My Mods\\Subnautica_Ultimate_modpack_core\\Subnautica_Ultimate_modpack_core.csproj",
+        "packagesPath": "C:\\Users\\szynk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szynk\\Desktop\\My Mods\\Subnautica_Ultimate_modpack_core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\szynk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "BepInEx.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "BepInEx.Core": {
+              "target": "Package",
+              "version": "[5.4.21, )"
+            },
+            "BepInEx.PluginInfoProps": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "PolySharp": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Subnautica.GameLibs": {
+              "target": "Package",
+              "version": "[82304.0.0-r.0, )"
+            },
+            "Subnautica.Nautilus": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.*-*, )"
+            },
+            "Unity.InputSystem": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "UnityEngine.Modules": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[2019.4.36, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

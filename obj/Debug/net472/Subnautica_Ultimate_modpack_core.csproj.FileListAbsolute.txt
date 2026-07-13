@@ -1,0 +1,6 @@
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\Subnautica_Ultimate_modpack_core.csproj.AssemblyReference.cache
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\PluginInfo.cs
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\Subnautica_Ultimate_modpack_core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\Subnautica_Ultimate_modpack_core.AssemblyInfoInputs.cache
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\Subnautica_Ultimate_modpack_core.AssemblyInfo.cs
+C:\Users\szynk\Desktop\My Mods\Subnautica_Ultimate_modpack_core\obj\Debug\net472\Subnautica_Ultimate_modpack_core.csproj.CoreCompileInputs.cache
