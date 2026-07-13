@@ -1,0 +1,6 @@
+{
+    "MaxPowerAllowed": 500,
+    "PowerMultiplier": 1,
+    "MakesNoise": false,
+    "LogEvent": true
+}

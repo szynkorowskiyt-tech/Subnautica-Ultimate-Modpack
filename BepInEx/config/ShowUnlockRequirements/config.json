@@ -1,0 +1,13 @@
+{
+    "DividerConfiguration": false,
+    "ShowAllUnknownNodes": true,
+    "DarkenNodePercent": 60,
+    "DividerVanilla": false,
+    "RemoveIngredientsUnknown": true,
+    "DividerAffects": false,
+    "AffectCraftingUI": true,
+    "AffectBuildingUI": true,
+    "AffectPDAUI": true,
+    "DividerMisc": false,
+    "EnableThisMod": true
+}

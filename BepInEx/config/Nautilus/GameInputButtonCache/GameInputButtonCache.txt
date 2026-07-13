@@ -1,0 +1,36 @@
+Move all items of type:48
+Move all items:49
+Pin item:50
+DecrementSize:51
+IncrementSize:52
+ResetSize:53
+WarpCannonWarpToBase:54
+PrawnSuitDash:55
+SeamothIonBoost:56
+GargBowtie:57
+GargChristmasHat:58
+GargBunnyEars:59
+GargMonicle:60
+GargNewYears:61
+GargSepticSam:62
+GargSign:63
+GargTophat:64
+GargWarfstashe:65
+Slot6:66
+Slot7:67
+Slot8:68
+Slot9:69
+Slot10:70
+Slot11:71
+Slot12:72
+Slot13:73
+Slot14:74
+Slot15:75
+Slot16:76
+Slot17:77
+Slot18:78
+Slot19:79
+Slot20:80
+ProtoTetherSubButton:81
+ProtoTetherMarkerButton:82
+ProtoLocatorPingButton:83

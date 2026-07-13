@@ -1,0 +1,9 @@
+{
+    "slotCount": 8,
+    "disableBindToEmpty": true,
+    "showLabels": false,
+    "showLabelsWhilePiloting": false,
+    "labelSize": "20",
+    "labelXpos": "0",
+    "labelYpos": "0"
+}

@@ -1,0 +1,54 @@
+{
+  "Peeper": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Bladderfish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Boomerang": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "GarryFish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Hoverfish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Hoopfish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Reginald": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Eyeye": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Holefish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Oculus": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Spadefish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "Cuddlefish": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  },
+  "RabbitRay": {
+    "MinSize": 1.0,
+    "MaxSize": 1.0
+  }
+}

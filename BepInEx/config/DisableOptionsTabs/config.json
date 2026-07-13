@@ -1,0 +1,10 @@
+{
+    "DividerCfg": false,
+    "DisableGraphics": false,
+    "DisableInput": false,
+    "DisableAccessibility": true,
+    "DisableRedeemKey": true,
+    "DisableTroubleshooting": true,
+    "DividerMisc": false,
+    "EnableThisMod": true
+}
