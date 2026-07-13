@@ -1,0 +1,252 @@
+{
+  // Buildables
+
+  "BuildableArchway": "Konstrukcja łukowa obcych",
+  "Tooltip_BuildableArchway": "Duży obiekt, prawdopodobnie używany jako futryna drzwi. Dekoracyjne.",
+
+  "BuildableColumn": "Columna obcych",
+  "Tooltip_BuildableColumn": "Wysoki obiekt przypominający kolumnę, o skomplikowanej budowie. Dekoracyjne.",
+
+  "BuildableColumnSmall": "Mała columna obcych",
+  "Tooltip_BuildableColumnSmall": "Wysoki obiekt przypominający kolumnę, o skomplikowanej budowie. Możliwość umieszczenia wewnątrz, jak i na zewnątrz.",
+
+  "BuildableDissectionTank": "Zbiornik preparowujący",
+  "Tooltip_BuildableDissectionTank": "Zbiornik dekoracyjny. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableInfoPanel": "Mapa obcych",
+  "Tooltip_BuildableInfoPanel": "Mapa nieznanej obcej struktury. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableDoorFrame": "Rama drzwi obcych",
+  "Tooltip_BuildableDoorFrame": "Dekoracyjna rama drzwi obcych.",
+
+  "BuildableDoorFrameWide": "Rama drzwi obcych (szeroka)",
+  "Tooltip_BuildableDoorFrameWide": "Dekoracyjna rama drzwi obcych",
+
+  "BuildableItemPedestal": "Pusty postument na przedmioty",
+  "Tooltip_BuildableItemPedestal": "Duży postument, na którym można eksponować pojedynczy przedmiot. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableLargeRelicTank": "Długi pojemnik na relikwie",
+  "Tooltip_BuildableLargeRelicTank": "Duża, pusta skrzynia na relikwie. Może pomieścić 3 przedmioty. Można umieścić wewnątrz, jak i na zewnątrz..",
+
+  "BuildablePrecursorLight1": "Duża aktywójąca się lampa obcych",
+  "Tooltip_BuildablePrecursorLight1": "Dekoracyjna lampa, która uruchamia się gdy, jesteś w zasięgu. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePrecursorLight2": "Aktywójąca się lampa obcych",
+  "Tooltip_BuildablePrecursorLight2": "Dekoracyjna lampa, która uruchamia się gdy, jesteś w zasięgu. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePrecursorLight3": "Duża lampa obcych",
+  "Tooltip_BuildablePrecursorLight3": "Duża lampa dekoracyjna. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePrecursorLight4": "Mała lampa obcych",
+  "Tooltip_BuildablePrecursorLight4": "Mała lampa drkoracyjna. Uruchamia się gdy, jesteś w zasięgu. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePrecursorLight5": "Mały reflektor obcych",
+  "Tooltip_BuildablePrecursorLight5": "Dekoracyjny reflektor. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableLightObelisk": "Oświetlony obelisk",
+  "Tooltip_BuildableLightObelisk": "Mały obelisk ze światłem zamontowanym na szczycie. Aktywuje się, gdy jesteś w zasięgu. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableMicroscope": "Microskop obcych",
+  "Tooltip_BuildableMicroscope": "To wygląda na zaawansowany mikroskop. Niefunkcjonalny. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableObelisk": "Obelisk obcych",
+  "Tooltip_BuildableObelisk": "Obelisk, który można wykorzystać do celów dekoracyjnych. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableObeliskLarge": "Wysoki obelisk obcych",
+  "Tooltip_BuildableObeliskLarge": "Duży obelisk, który można wykorzystać do celów dekoracyjnych. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableOrnamentalCube": "Ozdobna kostka",
+  "Tooltip_BuildableOrnamentalCube": "Ozdobna kostka, którą można wykorzystać do dekoracji. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableTabletPedestal": "Piedestał na tabliczki obcych",
+  "Tooltip_BuildableTabletPedestal": "Piedestał, który można wykorzystać do celów dekoracyjnych. Zaprojektowany do przechowywania tabliczek obcych. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePlatform": "Platforma obcych",
+  "Tooltip_BuildablePlatform": "Duża, płaska platforma do dekoracji. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableRelicTank": "Pojemnik na relikty",
+  "Tooltip_BuildableRelicTank": "Pusty pojemnik na relikty. Może pomieścić 1 przedmiot. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableSonicDeterrent": "Odstraszacz dźwiękowy",
+  "Tooltip_BuildableSonicDeterrent": "Duży obiekt obcych chroniący przed fauną. Najbardziej efektywny przed dużymi osobnikami. Wymaga energii jonowej do działania.",
+
+  "BuildableSpecimenCases": "Pojemnik na próbki",
+  "Tooltip_BuildableSpecimenCases": "Duży obiekt obcych, który ma wiele małych przegródek do przechowywania. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableAlienTable": "Stół labolatoryjny obcych",
+  "Tooltip_BuildableAlienTable": "Długi stół, który można wykorzystać do celów dekoracyjnych. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildablePrecursorComputerA": "Terminal obcych (zielony)",
+  "Tooltip_BuildablePrecursorComputerA": "Terminal komputerowy obcego pochodzenia. Chociaż nieznana jest metoda interakcji z jego podstawowymi funkcjami, jest w stanie wyświetlić przedmiot w formie projekcji holograficznej w celach wystawienniczych.",
+
+  "BuildablePrecursorComputerB": "Terminal obcych (pomarańczowy)",
+  "Tooltip_BuildablePrecursorComputerB": "Terminal komputerowy obcego pochodzenia. Chociaż nieznana jest metoda interakcji z jego podstawowymi funkcjami, jest w stanie wyświetlić przedmiot w formie projekcji holograficznej w celach wystawienniczych.",
+
+  "BuildablePrecursorComputerC": "Terminal obcych (niebieski)",
+  "Tooltip_BuildablePrecursorComputerC": "Terminal komputerowy obcego pochodzenia. Chociaż nieznana jest metoda interakcji z jego podstawowymi funkcjami, jest w stanie wyświetlić przedmiot w formie projekcji holograficznej w celach wystawienniczych.",
+
+  "PrecursorSilo": "Kondensator materiałów obcych",
+  "Tooltip_PrecursorSilo": "Zewnętrzny moduł magazynowy, w którym można przechowywać dużą ilość przedmiotów jednego typu. Kondensuje je w największym możliwym stopniu.",
+
+  "PrecursorModularBlock": "Blok modułowy obcych (M)",
+  "Tooltip_PrecursorModularBlock": "Mały blok składający się z zaawansowanych materiałów obcych. Można go używać do tworzenia wielu typów struktur.",
+
+  "PrecursorModularBlockLarge": "Blok modułowy obcych (D)",
+  "Tooltip_PrecursorModularBlockLarge": "Duży blok składający się z zaawansowanych materiałów obcych. Można go używać do tworzenia wielu typów struktur.",
+
+  "PrecursorFoundationTile": "Fundament obcych",
+  "Tooltip_PrecursorFoundationTile": "Duży fundament służący do budowy osobistych baz Obcych.",
+
+  "PrecursorWallDecoration1": "Dekoracja ścienna obcych A",
+  "Tooltip_PrecursorWallDecoration1": "Dekoracja ścienna do ozdabiania baz Obcych.",
+
+  "PrecursorWallDecoration2": "Dekoracja ścienna obcych B",
+  "Tooltip_PrecursorWallDecoration2": "Dekoracja ścienna do ozdabiania baz Obcych.",
+
+  "PrecursorWallDecoration3": "Dekoracja ścienna obcych C",
+  "Tooltip_PrecursorWallDecoration3": "Dekoracja ścienna do ozdabiania baz Obcych.",
+
+  "PrecursorOxygenGenerator": "Generator tlenu obcych",
+  "Tooltip_PrecursorOxygenGenerator": "Urządzenie to usuwa wodę i wytwarza gęsty gaz hydrofobowy, który wypełnia każdą zajmowaną przez siebie przestrzeń, w ten sposób przekształcając podmokłe obszary w miejsca, w których można oddychać i chodzić. Do działania wymaga energii jonowej.",
+
+  "IonGenerator": "Generator mocy obcych",
+  "Tooltip_IonGenerator": "Wysysa energię jonową z kostek jonowych przy niskiej wydajności. Kompatybilny jedynie z technologią Obcych.",
+
+  "AlienSolarPanel": "Panel słoneczny obcych",
+  "Tooltip_AlienSolarPanel": "Zamienia dostępne światło słoneczne na energię jonową z bardzo wysoką wydajnością. Kompatybilny jedynie z technologią Obcych.",
+
+  "BuildableAlienThermalPlant": "Elektrownia cieplna obcych",
+  "Tooltip_BuildableAlienThermalPlant": "Zamienia energię cieplną na energię elektryczną z ekstremalną wydajnością. Biorąc pod uwagę tak niesamowitą wydajność, powinno ono działać niezależnie od temperatury. Kompatybilny jedynie z technologią Obcych.",
+
+  // ......................................Cut content.................................................
+  "BuildableAlienRobot": "Robot Obcych",
+  "Tooltip_BuildableAlienRobot": "Robot Obcych, który sobie chodzi. Można umieścić wewnątrz, jak i na zewnątrz.",
+
+  "BuildableWarper": "Przestrzeniak",
+  "Tooltip_BuildableWarper": "Samoteleportująca jednostka egzekutorów kwarantanny, która atakuje zainfekowane stworzenia.",
+  // ..................................................................................................
+
+  "PrecursorFabricator": "Fabrykator obcych",
+  "Tooltip_PrecursorFabricator": "Zaawansowany fabrykator obcych. Podstawowy fabrykator Alterry wyposażony w zaawansowaną technologię kosmitów, zdolny do tworzenia potężnych artefaktów.",
+  "PrecursorFabricatorIonBuilder": "Fabrykator Obcych",
+  "Tooltip_PrecursorFabricatorIonBuilder": "Zaawansowany fabrykator obcych. Podstawowy fabrykator Alterry wyposażony w zaawansowaną technologię kosmitów, zdolny do tworzenia potężnych artefaktów.",
+  "UseText_PrecursorFabricator": "Użyj fabrykatora",
+
+  // Advanced Materials
+  "AlienCompositeGlass": "Kompozytowe szkło obcych",
+  "Tooltip_AlienCompositeGlass": "Niezwykle wytrzymałe szkło, naszpikowane obcą technologią.",
+
+  "AotuPoster": "Architekci nieznanego projektora holograficznego",
+  "Tooltip_AotuPoster": "Logo zespołu wyświetlone za pomocą technologii holograficznej.",
+
+  "CobaltIngot": "Sztabka kobaltu",
+  "Tooltip_CobaltIngot": "Co. Skondensowana sztabka kobaltu.",
+
+  "PrecursorIngot": "Sztabka stopu Architektów",
+  "Tooltip_PrecursorIngot": "Zasób o tajemniczych właściwościach i niespotykanej dotąd integralności.",
+
+  "ReinforcedGlass": "Szkło zbrojone",
+  "Tooltip_ReinforcedGlass": "Wytrzymałe, niezwykle odporne na zarysowania szkło wykonane z szafirowego kryształu.",
+
+  "OpticFiber": "Szpula światłowodowa",
+  "Tooltip_OpticFiber": "Wysokiej jakości światłowód. Umożliwia transmisję danych o dużej przepustowości.",
+
+  "AlienWiringKit": "Zestaw elektryczny obcych",
+  "Tooltip_AlienWiringKit": "Okablowanie kompatybilne z jonami. Niezbędny komponent wielu urządzeń.",
+
+  // Cubes
+  "Electricube": "Kostka elektryczna",
+  "Tooltip_Electricube": "Źródło energii o dużej pojemności i strukturze podobnej do kostki jonowej. Znajduje zastosowanie w materiałach biomechanicznych i teleportacji na krótkie dystanse.",
+
+  "DrainedIonCube": "Dezaktywowana kostka jonowa",
+  "Tooltip_DrainedIonCube": "Kostka jonowa, która, choć nadal bardzo reaktywna, nie może być już wykorzystywana do pozyskiwania energii przy użyciu jakiejkolwiek znanej ludzkości technologii.",
+
+  "RedIonCube": "Kostka mocy",
+  "Tooltip_RedIonCube": "Źródło energii o dużej pojemności i strukturze podobnej do kostki jonowej. Potrafi uwolnić ogromną ilość energii w krótkim czasie. Zastosowania w potężnej technologii ofensywnej i defensywnej.",
+
+  // Minerals (same as their Drillable equivalent)
+  "Cobalt": "Kobalt",
+  "Tooltip_Cobalt": "Co. Zastosowania w produkcji stopów magnetycznych o dużej wytrzymałości.",
+
+  "Emerald": "Szmaragd",
+  "Tooltip_Emerald": "Be₃Al₂SiO₆. Wariant berylu mający zastosowanie w zaawansowanej produkcji obcych.",
+  "DrillableEmerald": "Szmaragd",
+  "Ency_Emerald": "Kryształ Szmaragdu",
+  "EncyDesc_Emerald": "Stosunkowo twardy, zielony minerał, odmiana berylu. Można go znaleźć w niewielkich ilościach w głębokich biomach oraz w dużych złożach na wydmach. Choć praktycznych zastosowań tego kamienia szlachetnego jest niewiele, znaczną ilość tego minerału zaobserwowano w technologii pozaziemskiej.\n\nOcena: Może mieć zastosowanie w produkcji technologii Architektów",
+
+  "Morganite": "Morganit",
+  "Tooltip_Morganite": "Be₃Al₂SiO₆. Rzadki minerał mający zastosowanie w zaawansowanej produkcji obcych.",
+  "DrillableEmerald": "Morganit",
+
+  "RedBeryl": "Czerwony beryl",
+  "Tooltip_RedBeryl": "Be₃Al₂Si₆O₁₈. Niezwykle rzadki minerał mający zastosowanie w zaawansowanej produkcji obcych.",
+  "DrillableRedBeryl": "Czerwony beryl",
+
+  "Sapphire": "Szafir",
+  "Tooltip_Sapphire": "Al₂O₃. Cenne właściwości izolacyjne i zastosowania we wzmacnianiu szkła.",
+  "DrillableSapphire": "Szafir",
+
+  // Prompts
+  "WaterParkNoEnoughSizePrompt": "Nie można {0} tu upuścić, ACU musi być wysokie na co najmniej {1} jednostek.",
+  "BuilderIncrementSizePrompt": "Zwiększ rozmiar ({0})",
+  "BuilderDecrementSizePrompt": "Zmniejsz rozmiar ({0})",
+  "BuilderResetSizePrompt": "Zresetuj rozmiar ({0})",
+  "Achievements": "Osiągnięcia",
+  "AchievementComplete": "Osiągnięcia ukończone!",
+  "PrecursorSiloHoverText": "Użyj terminala",
+  "PrecursorSiloLabel": "KONDENSATOR MATERIAŁU",
+  "PrecursorSiloItemConflict": "BŁĄD: W magazynie może znajdować się tylko jeden przedmiot każdego typu",
+  "SpecimenCaseStorageLabel": "KONTENER SPECJALNy",
+  "DisplayCaseHoverText": "Zmień wyświetlacz",
+  "SmallRelicCaseLabel": "SKRZYNKA NA RELIKWIE (dozwolony 1 przedmiot)",
+  "LargeRelicCaseLabel": "DUŻA SKRZYNKA NA RELIKWIE (dozwolone 3 przedmioty)",
+  "ItemPedestalLabel": "POSTUMENT NA PRZEDMIOTY (dozwolony 1 przedmiot)",
+  "ComputerTerminalLabel": "TERMINAL OBCYCH (dozwolony 1 przedmiot)",
+  "AlienTechPowered": "Funkcjonuje",
+  "AlienTechPoweredInfo": "{0}u dostępnej mocy (pojemność: {1}u)",
+  "AlienTechUnpowered": "Bez zasilania!",
+  "AlienTechUnpoweredHint": "Kompatybilny tylko z źródłami zasilania Prekursorów",
+  "AlienPowerSourceHandTarget": "{0}u / {1}u ({2}%)",
+  "AlienPowerSourceHandTargetInvalid": "Błąd",
+  "IonGeneratorInsertCube": "Włóż kostkę jonową",
+  "IonGeneratorRemoveCube": "Wyjmij kostkę jonową",
+  "IonGeneratorNoCube": "Nie włożono żadnej kostki",
+  "AlienSolarPanelHandTarget": "Panel słoneczny obcych (efektywność: {0}%)",
+  "PrecursorFabricatorNotEnoughEnergyNotification": "Wytworzenie tego przedmiotu wymaga {0} energii.\n<color=#80FF80>Dostarczanie energii jonowej: {1}u.</color>",
+
+  // Achievements
+  "AchievementGenericLocked": "To osiągnięcie jest ukryte.",
+  "AchievementBuildPrecursorFabricatorName": "Architekt",
+  "AchievementBuildPrecursorFabricatorUnlocked": "Zbudowano fabrykator obcych.",
+
+  // Precursor Fabricator tabs
+  "PrecursorFabricatorMenu_AlienMaterials": "Materiały obcych",
+  "PrecursorFabricatorMenu_AlienEquipment": "Sprzęt",
+  "PrecursorFabricatorMenu_AlienDevices": "Urządzenia",
+  "PrecursorFabricatorMenu_AlienUpgrades": "Zaawansowane moduły ulepszeń",
+  "PrecursorFabricatorMenu_AlienDecorations": "Przedmioty dekoracyjne",
+  "PrecursorFabricatorMenu_AlienEggs": "Jaja",
+
+  // Tools
+  "PrecursorBuilder": "Budowniczy baz architektów",
+  "Tooltip_PrecursorBuilder": "Tworzy konstrukcje obcych i urządzenia przy użyciu skomplikowanej technologii architektów.",
+
+  "TechCategoryAlienBlocks": "Konstrukcje budowlane obcych",
+  "TechCategoryAlienDecorations": "Dekoracje obcych",
+  "TechCategoryAlienLightDecorations": "Lampy obcych",
+  "TechCategoryAlienInteriorModules": "Moduły wnętrza obcych",
+  "TechCategoryAlienExteriorModules": "Moduły zewnętrzne obcych",
+
+  "GroupAlienBlocks": "Konstrukcje budowlane Prekursorów",
+  "GroupAlienDecorations": "Dekoracje Prekursorów",
+  "GroupAlienLightDecorations": "Lampy Prekursorów",
+  "GroupAlienInteriorModules": "Moduły wnętrza Prekursorów",
+  "GroupAlienExteriorModules": "Moduły zewnętrzne Prekursorów",
+
+  // Tech
+  "AlienMasterTech": "Schematy fabrykatora obcych",
+  "Tooltip_AlienMasterTech": "Zaawansowana technologia używana przez zaawansowaną rasę.",
+  "AlienBuildablesMasterTech": "Schematy konstrukcyjne architektów",
+  "Tooltip_AlienBuildablesMasterTech": "Zaawansowana technologia używana przez zaawansowaną rasę."
+
+}
