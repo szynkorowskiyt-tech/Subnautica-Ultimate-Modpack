@@ -1,3 +1,0 @@
-DefenseFacilityKey:5
-EngineFacilityKey:6
-HullFacilityKey:7

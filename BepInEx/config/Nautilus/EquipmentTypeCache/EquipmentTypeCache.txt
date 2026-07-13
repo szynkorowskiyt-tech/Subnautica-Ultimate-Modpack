@@ -1,5 +1,0 @@
-PrototypePowerType:17
-LightBeaconType:18
-PhaseGateType:19
-ProtoDummyPowerType:20
-FactorEquipmentType:21
