@@ -5,7 +5,11 @@
 
 # Early Access 0.3 (unreleased just yeet)
 
-- added only quests ||just open file quests.html||
+- added only quests just
+<details>
+<summary>Spoiler</summary>
+JUST OPEN quests.html
+</details>
 
 
 # Early Access 0.2
