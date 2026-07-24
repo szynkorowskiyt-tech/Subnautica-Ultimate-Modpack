@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e1e2f, #3a0d0d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            padding: 50px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: clamp(40px, 8vw, 80px);
+            margin-bottom: 40px;
+            background: linear-gradient(90deg, #ff4b4b, #ff9a9a);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .section-title {
+            font-size: 32px;
+            color: #ff7777;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px 25px;
+            border-radius: 15px;
+            transition: 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.18);
+        }
+
+        .faq-item a {
+            color: #7db8ff;
+            font-size: 24px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .faq-item a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            Frequently Asked Questions
+        </h1>
+
+        <h2 class="section-title">
+            Errors
+        </h2>
+
+        <div class="faq-item">
+            <a href="errors/config_not_found/">
+                Config Not Found
+            </a>
+        </div>
+
+        <div class="faq-item">
+            <a href="errors/bepinex_not_found/">
+                Bepinex Not Found
+            </a>
+        </div>
+
+        <div class="faq-item">
+            <a href="errors/subnautica_not_found/">
+                Game/subnautica.exe Not Found
+            </a>
+        </div>
+
+
+        <footer>
+            © 2026 LeysMC
+        </footer>
+
+    </div>
+
+</body>
+</html>
