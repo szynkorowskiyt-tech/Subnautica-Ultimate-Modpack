@@ -26,7 +26,7 @@ JUST OPEN quests.html
 - added my own mods
 - improved performace for intel's gpu's and nvidia's GTX series GPU
 - added support to player's without internet connection
-- added 3 easter-eggs [Spoiler] Skyofmyworld plushie, Quantum plushie, and 1 secret plushie [Spoiler]
+- added 3 easter-eggs <details> <summary>Spoiler</summary> Skyofmyworld plushie, Quantum plushie, and 1 secret plushie</details>
 - now modpack support languages: English (100%), Polish (87%), Spanish (2%)
 - fixed several bugs with run.exe file
 - added 3 slots to bio-reactor
@@ -35,7 +35,6 @@ JUST OPEN quests.html
 - added 4 slots to prawnsuit storage
 - added 5 slots to prawnsuit storage module
 - now all items 1x1 (previously some items are bugged and is 7x7 (whole inventory))
-[Spoiler] In past 10 days i release modpack for below zero named Subnautica Below Zero: Alternate Story [Spoiler]
 
 ### small changes:
 - Catching egg - 12 minutes -> 10 minutes
