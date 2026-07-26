@@ -3,7 +3,7 @@
 
 
 
-# Early Access 0.3 (unreleased just yeet)
+# Early Access 0.3
 
 - added only quests just
 <details>
